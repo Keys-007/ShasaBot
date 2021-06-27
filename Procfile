@@ -1,2 +1,2 @@
-worker: python3 -m ShasaBot
+worker: python3 -m GabiBraunRobot
 ps:scale worker=1
