@@ -5,23 +5,23 @@ from telegram import ParseMode, Message
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 
-import ShasaBot.modules.sql.notes_sql as sql
-from ShasaBot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
-from ShasaBot.__main__ import DATA_IMPORT
-from ShasaBot.modules.helper_funcs.chat_status import user_admin
-from ShasaBot.modules.helper_funcs.alternate import typing_action
+import GabiBraunRobot.modules.sql.notes_sql as sql
+from GabiBraunRobot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
+from GabiBraunRobot.__main__ import DATA_IMPORT
+from GabiBraunRobot.modules.helper_funcs.chat_status import user_admin
+from GabiBraunRobot.modules.helper_funcs.alternate import typing_action
 
-# from ShasaBot.modules.rules import get_rules
-import ShasaBot.modules.sql.rules_sql as rulessql
+# from GabiBraunRobot.modules.rules import get_rules
+import GabiBraunRobot.modules.sql.rules_sql as rulessql
 
-# from ShasaBot.modules.sql import warns_sql as warnssql
-import ShasaBot.modules.sql.blacklist_sql as blacklistsql
-from ShasaBot.modules.sql import disable_sql as disabledsql
+# from GabiBraunRobot.modules.sql import warns_sql as warnssql
+import GabiBraunRobot.modules.sql.blacklist_sql as blacklistsql
+from GabiBraunRobot.modules.sql import disable_sql as disabledsql
 
-# from ShasaBot.modules.sql import cust_filters_sql as filtersql
-# import ShasaBot.modules.sql.welcome_sql as welcsql
-import ShasaBot.modules.sql.locks_sql as locksql
-from ShasaBot.modules.connection import connected
+# from GabiBraunRobot.modules.sql import cust_filters_sql as filtersql
+# import GabiBraunRobot.modules.sql.welcome_sql as welcsql
+import GabiBraunRobot.modules.sql.locks_sql as locksql
+from GabiBraunRobot.modules.connection import connected
 
 
 @run_async
