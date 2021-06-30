@@ -19,7 +19,7 @@ from GabiBraunRobot import dispatcher, LOGGER, DRAGONS
 from GabiBraunRobot.modules.disable import DisableAbleCommandHandler
 from GabiBraunRobot.modules.helper_funcs.handlers import MessageHandlerChecker
 from GabiBraunRobot.modules.helper_funcs.chat_status import user_admin
-from ShasaBot.modules.helper_funcs.extraction import extract_text
+from GabiBraunRobot.modules.helper_funcs.extraction import extract_text
 from GabiBraunRobot.modules.helper_funcs.filters import CustomFilters
 from GabiBraunRobot.modules.helper_funcs.misc import build_keyboard_parser
 from GabiBraunRobot.modules.helper_funcs.msg_types import get_filter_type
