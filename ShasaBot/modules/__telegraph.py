@@ -1,12 +1,12 @@
-from ShasaBot.events import register
-from ShasaBot import telethn as tbot
+from GabiBraunRobot.events import register
+from GabiBraunRobot import telethn as tbot
 TMP_DOWNLOAD_DIRECTORY = "./"
 from telethon import events
 import os
 from PIL import Image
 from datetime import datetime
 from telegraph import Telegraph, upload_file, exceptions
-kittu = "YONE"
+Falco = "GABI"
 telegraph = Telegraph()
 r = telegraph.create_account(short_name=kittu)
 auth_url = r["auth_url"]
@@ -23,7 +23,7 @@ async def _(event):
         input_str = event.pattern_match.group(1)
         if input_str == "m":
             downloaded_file_name = await tbot.download_media(
-                r_message,
+                r_message, it 
                 TMP_DOWNLOAD_DIRECTORY
             )
             end = datetime.now()
