@@ -1,12 +1,12 @@
-# Thanks to @infinity_bots - Williambutcherbot
+# Thanks to @infinity_bots - MizukiBot
 import os
 
 import requests
 import wget
 from pyrogram import filters
 
-from ShasaBot import pbot as Jebot
-from ShasaBot.pyrogramee.dark import get_arg
+from GabiBraunRobot import pbot as Jebot
+from GabiBraunRobot.pyrogramee.dark import get_arg
 
 
 @Jebot.on_message(filters.command("saavn"))
