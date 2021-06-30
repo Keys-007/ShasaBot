@@ -7,8 +7,8 @@ from time import sleep
 
 import ShasaBot
 
-from ShasaBot import dispatcher
-from ShasaBot.modules.helper_funcs.chat_status import dev_plus
+from GabiBraunRobot import dispatcher
+from GabiBraunRobot.modules.helper_funcs.chat_status import dev_plus
 from telegram import TelegramError, Update
 from telegram.error import Unauthorized
 from telegram.ext import CallbackContext, CommandHandler, run_async
