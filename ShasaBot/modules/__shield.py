@@ -33,7 +33,7 @@ from GabiBraunRobot.pyrogramee.telethonbasics import is_admin
 from GabiBraunRobot.events import register
 from GabiBraunRobot import MONGO_DB_URI 
 from pymongo import MongoClient
-from ShasaBot.modules.sql_extended.nsfw_watch_sql import (
+from GabiBraunRobot.modules.sql_extended.nsfw_watch_sql import (
     add_nsfwatch,
     get_all_nsfw_enabled_chat,
     is_nsfwatch_indb,
