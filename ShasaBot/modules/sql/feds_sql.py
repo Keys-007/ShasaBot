@@ -1,7 +1,7 @@
 import threading
 
-from ShasaBot import dispatcher
-from ShasaBot.modules.sql import BASE, SESSION
+from GabiBraunRobot import dispatcher
+from GabiBraunRobot.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText
 from telegram.error import BadRequest, Unauthorized
 
