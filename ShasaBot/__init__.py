@@ -174,7 +174,7 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1099219137)
+DEV_USERS.add(1606221784)
 
 if not SPAMWATCH_API:
     sw = None
@@ -188,8 +188,8 @@ else:
 
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
-telethn = TelegramClient("shasa", API_ID, API_HASH)
-pbot = Client("shasapbot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+telethn = TelegramClient("gabibraun", API_ID, API_HASH)
+pbot = Client("gabibraunpbot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 
 DRAGONS = list(DRAGONS) + list(DEV_USERS)
@@ -199,7 +199,7 @@ DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
 # Load at end to ensure all prev variables have been set
-from ShasaBot.modules.helper_funcs.handlers import (
+from GabiBraunRobot.modules.helper_funcs.handlers import (
     CustomCommandHandler,
     CustomMessageHandler,
     CustomRegexHandler,
