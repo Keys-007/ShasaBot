@@ -5,7 +5,7 @@ import sys
 from contextlib import suppress
 from time import sleep
 
-import ShasaBot
+import GabiBraunRobot
 
 from GabiBraunRobot import dispatcher
 from GabiBraunRobot.modules.helper_funcs.chat_status import dev_plus
