@@ -7,7 +7,7 @@ import uuid
 from io import BytesIO
 
 import GabiBraunRobot.modules.sql.feds_sql as sql
-from ShasaBot import (
+from GabiBraunRobot import (
     EVENT_LOGS,
     LOGGER,
     SUPPORT_CHAT,
